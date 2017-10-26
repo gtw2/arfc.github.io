@@ -5,9 +5,85 @@
     <description>Website for the Advanced Reactors and Fuel Cycles group</description>
     <link>http://arfc.github.io/</link>
     <atom:link href="http://arfc.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 24 May 2017 15:39:04 -0500</pubDate>
-    <lastBuildDate>Wed, 24 May 2017 15:39:04 -0500</lastBuildDate>
+    <pubDate>Thu, 26 Oct 2017 11:59:38 -0500</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2017 11:59:38 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Bae Presents Poster at GLOBAL 2017</title>
+        <description>&lt;p&gt;ARFC graduate student, &lt;strong&gt;Jin Whan Bae&lt;/strong&gt;, Teddy for short, travelled to Seoul, 
+South Korea in September to present a poster at the &lt;a href=&quot;http://www.global2017.org/&quot;&gt;GLOBAL 2017 Nuclear Fuel 
+cycle Conference.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;His poster, titled “Current Status of Predictive Transition Capability in Fuel 
+Cycle Simulation,” was accompanied by a conference paper of the same name. It 
+established the state of the art of predictive fuel cycle facility deployment 
+in exising nuclear fuel cycle simulators.&lt;/p&gt;
+
+&lt;p&gt;Bae said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Thanks to ARFC, I was able to network with professionals and academics
+worldwide in my field. I think the experience and things I learned in the
+conference will help me greatly in my research and my career.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/pres/bae-global-2017.jpg&quot; alt=&quot;bae-global-2017.jpg&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 02 Oct 2017 15:00:00 -0500</pubDate>
+        <link>http://arfc.github.io/jekyll/update/2017/10/02/bae-global/</link>
+        <guid isPermaLink="true">http://arfc.github.io/jekyll/update/2017/10/02/bae-global/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Andrei Rykhlevskii Recognized with ANS Scholarship</title>
+        <description>&lt;p&gt;Second year ARFC graduate student, &lt;strong&gt;Andrei Rykhlevskii&lt;/strong&gt;, was recognized this year by the 
+American Nuclear Society at the national level with a &lt;strong&gt;2017 John and Muriel 
+Landis Scholarship.&lt;/strong&gt; This award, given by the ANS NEED Committee,
+consists of a monetary award, a certificate, and placement in 
+the online archive of recipients on the &lt;a href=&quot;http://www.ans.org/honors/scholarships/recipients/&quot;&gt;ANS honors and awards 
+website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This award recognizes students with exceptional potential in nuclear science 
+and engineering who also pursue graduate school despite greater than average 
+financial constraints. We applaud the committee’s selection of Andrei, who is 
+simultaneously an exceptionally promising graduate student, a husband, and a 
+father of two.&lt;/p&gt;
+
+&lt;p&gt;Andrei joined ARFC in Fall 2016, and has already made significant achievements 
+in graduate research.  In particular, Andrei has completed a full 
+core neutronic model of the Molten Salt Breeder Reactor with unprecedented 
+geometric detail. Additionally, he conducted an accompanying online fuel 
+reprocessing analysis for that reactor.  For this work, Andrei consulted 
+technically with Prof. Huff as well as the larger Serpent 2 neutronics 
+simulation community. His dedication has resulted in a strong foundation for 
+future multi-physics and fuel cycle analysis of molten salt breeder
+reactor designs more broadly. This work culminated in two conference paper 
+submissions to the 2017 American Nuclear Society Winter Meeting.&lt;/p&gt;
+
+&lt;p&gt;ARFC is lucky to have an accomplished group of students and we are particularly 
+delighted to congratulate Andrei on this award. It recognizes something of 
+great importance to our mission : the humanity and dedication required to 
+pursue an advanced degree in nuclear engineering.&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 23 Aug 2017 15:00:00 -0500</pubDate>
+        <link>http://arfc.github.io/jekyll/update/2017/08/23/andrei-landis/</link>
+        <guid isPermaLink="true">http://arfc.github.io/jekyll/update/2017/08/23/andrei-landis/</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
     
       <item>
         <title>Jin Whan Bae Recognized for Outstanding Undergraduate Research</title>

@@ -237,8 +237,21 @@
                 <div class="col-md-3">
                 </div>
                 <div class="col-md-6">
-                        <p>Moltres is a MOOSE-application code design for simulation of molten salt
+                        <p>Moltres is a MOOSE-application code designed for simulation of molten salt
 reactors.</p>
+
+<h2 id="use">Use</h2>
+
+<p>Outlines of the kernels and boundary
+conditions used to construct the Moltres governing equations can be found on the
+<a href="http://arfc.github.io/software/moltres/wiki/">Moltres wiki</a>. Breakdown of a
+full-fledged Moltres input file can be found
+<a href="http://arfc.github.io/software/moltres/wiki/input_example/">here</a>. New Moltres
+users who have never used MOOSE before are encouraged to check-out its
+<a href="http://mooseframework.org/wiki/">wiki</a>,
+<a href="http://mooseframework.org/wiki/MooseTutorials/">tutorials</a>, and
+<a href="http://mooseframework.org/wiki/MooseExamples/">examples</a> to help understand the
+underlying Moltres components.</p>
 
 <h2 id="install">Install</h2>
 
@@ -247,38 +260,39 @@ instructions at http://mooseframework.org/getting-started/. After installing
 MOOSE, you can install Moltres by running the following commands in a shell
 after changing into the directory holding your MOOSE directory (perhaps <code class="highlighter-rouge">~/projects</code>):</p>
 
-<p><code class="highlighter-rouge">bash
-git clone https://github.com/arfc/moltres
-cd moltres
+<div class="highlighter-rouge"><pre class="highlight"><code>git clone https://github.com/arfc/moltres
+<span class="nb">cd </span>moltres
 git submodule init
 git submodule update
 make -j8
-</code></p>
+</code></pre>
+</div>
 
 <p>You may also compile a debug version of Moltres by running <code class="highlighter-rouge">METHOD=dbg make
--j8</code>.</p>
+-j8</code>. Note that you should replace <code class="highlighter-rouge">8</code> with the number of processors available
+on your machine.</p>
 
-<h2 id="support">Support</h2>
+<h2 id="testing">Testing</h2>
 
-<p>For automated documentation of the code, see our doxygen pages:</p>
+<p>To ensure that Moltres is functioning properly, run <code class="highlighter-rouge">./run_tests -j8</code> from the
+root of the Moltres directory.</p>
 
-<p><a href="http://arfc.github.io/moltres">Doxygen</a></p>
+<h2 id="development">Development</h2>
 
-<p>General user documentation can be found on our wiki:</p>
+<p>API documentation for those interested in understanding or developing Moltres
+can be found <a href="https://arfc.github.io/moltres/">here</a>. If you ever want to
+contribute changes to the Moltres repository, make sure you run
+<code class="highlighter-rouge">scripts/install-format-hook.sh</code> before making any commits. This will ensure
+that any commits you make adhere to the MOOSE/Moltres C++ style. Pull requests
+should be submitted to the <code class="highlighter-rouge">devel</code> branch of the <code class="highlighter-rouge">arfc/moltres</code> repository. Each
+pull request is automatically tested for style and for whether it breaks any of
+the core Moltres physics capabilities.</p>
 
-<p><a href="./wiki/">wiki</a></p>
-
-<h3 id="contact">Contact</h3>
+<h2 id="contact">Contact</h2>
 
 <p>Contact Alex Lindsay at al007@illinois.edu for more information or
 even better, please post to our discussion list at
 moltres-users@googlegroups.com.</p>
-
-<h2 id="development">Development</h2>
-
-<p>If you ever want to contribute changes to the Moltres repository, make sure you
-run <code class="highlighter-rouge">./scripts/install-format-hook.sh</code> before making any commits. This will
-ensure that any commits you make adhere to the MOOSE/Moltres C++ style.</p>
 
 <p><img src="phoenix_CC0.jpg" alt="" /></p>
 
@@ -336,6 +350,82 @@ ensure that any commits you make adhere to the MOOSE/Moltres C++ style.</p>
 
      <!-- Portfolio Modals -->
  
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Bae Presents Poster at GLOBAL 2017</h2>
+                            <hr class="star-primary">
+                            <img src="" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Andrei Rykhlevskii Recognized with ANS Scholarship</h2>
+                            <hr class="star-primary">
+                            <img src="" class="img-responsive img-centered" alt="">
+                            <p></p>
+                            <ul class="list-inline item-details">
+                                <li>Client:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                                <li>Service:
+                                    <strong><a href="http://startbootstrap.com"></a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
